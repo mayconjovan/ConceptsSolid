@@ -106,7 +106,7 @@ public class SingleResponsibilityPrinciple {
      * Aqui, distribuímos as responsabilidades da `ClassGod` em classes especializadas,
      * cada uma com um propósito único.
      */
-    class EmployerService {
+    class EmployerServiceCorrect {
         public void saveEmployer() {}
         public double calculateSalary() { return 0; }
         public Employee getEmployerDetails() { return null; }
